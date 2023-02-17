@@ -36,7 +36,7 @@ func main() {
 	}
 
 	genPackage := "gkgen"
-	genConstructor := "NewValidator"
+	genConstructor := "NewValidateGenerator"
 	if len(args) >= 3 {
 		genPackage = args[1]
 		genConstructor = args[2]
